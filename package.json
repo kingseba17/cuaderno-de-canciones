@@ -1,0 +1,15 @@
+{
+  "name": "cuaderno-de-canciones",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cuaderno para escribir canciones en español, con rimas y notas de voz. Funciona sin internet.",
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "test": "node --test tests/",
+    "build-index": "node tools/build-index.mjs"
+  },
+  "devDependencies": {
+    "an-array-of-spanish-words": "^2.0.0"
+  }
+}

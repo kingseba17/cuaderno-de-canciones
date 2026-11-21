@@ -1,0 +1,20 @@
+# Dependencias que se descargan con npm
+node_modules/
+# Listas de palabras descargadas para armar el índice (pesan mucho; se bajan solas)
+tools/cache/
+
+# Respaldos y exportaciones: tus letras y audios NUNCA se suben a GitHub
+respaldos/
+cuaderno-respaldo-*.json
+*.zip
+*.m4a
+*.mp4
+*.webm
+*.txt
+!data/*.txt
+
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.claude/settings.local.json
